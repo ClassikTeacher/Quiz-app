@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head lang="en">
+ <meta charset="utf-8">
+ <meta name= "viewport" content="width=device-width, initial-scale=1.0"/>
+ <script src="https://kit.fontawesome.com/1bde65323c.js" crossorigin="anonymous"></script>
+<title> Quiz App </title>
+<!--styles-->
+<link rel="stylesheet" href="main.css"/>
+ </head>
+ <body>
+<div class="container">
+    <div class="quiz-container">
+        <h2 id="question">Question Text</h2>
+        <ul>
+            <li>
+                <input type="radio" id="a" name="answer" class="answer"/>
+                <label for="a" id="a_text">Question</label>
+            </li>
+            <li>
+                <input type="radio" id="b" name="answer" class="answer"/>
+                <label for="b" id="b_text">Question</label>
+            </li>
+            <li>
+                <input type="radio" id="c" name="answer" class="answer"/>
+                <label for="c" id="c_text">Question</label>
+            </li>
+            <li>
+                <input type="radio" id="d" name="answer" class="answer"/>
+                <label for="d" id="d_text">Question</label>
+            
+            </li>
+        </ul>
+        <div class="btn-conteiner">
+        <button type="submit" class="btn-submit">submit</button>
+        </div>
+    </div>
+    <div class="result-container block">
+        <h2>You finished! get yourself an ise cream</h2>
+        <div class="text-result">
+            <span  id="true"> textaaaa1 </span>
+            <span  id="false"> text1 </span>
+        </div>
+    </div>
+</div>
+<!--Javascript-->
+<script src="script.js"></script>
+
+</body>
+</html>
