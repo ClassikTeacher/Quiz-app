@@ -83,12 +83,14 @@ h2{
 ul{
     padding: 0;
     list-style: none;
-    margin-left: 50px;
+    
 }
 
 ul li{
     display: flex;
-    padding:5px 0;
+    padding: 5px 0;
+    /* margin-right:2px;  */
+    padding-left: 50px;
 }
 ul li:hover{
     background: rgba(0, 0, 0, 0.1) ;
@@ -97,6 +99,7 @@ ul li:hover{
 ul li label{
     margin-left: 5px;
     font-size: 0.75em;
+    width: 100%;
     cursor: pointer;
 }
 
